@@ -1,0 +1,17 @@
+RewriteEngine On
+
+RewriteRule ^home/$ /index.php [L]
+RewriteRule ^dang-ky/$ /dang-ky.php [L]
+RewriteRule ^dang-nhap/$ /dang-nhap.php [L]
+RewriteRule ^quen-mat-khau/$ /quen-mat-khau.php [L]
+RewriteRule ^dang-xuat/$ /dang-xuat.php [L]
+RewriteRule ^profile/$ /profile.php [L]
+RewriteRule ^nap-tien/$ /system/nap-tien.php [L]
+RewriteRule ^ho-tro/$ /system/ho-tro.php [L]
+RewriteRule ^ho-tro/create/$ /system/create-ho-tro.php [L]
+RewriteRule ^ho-tro/view/([A-Za-z0-9-]+) /view-ho-tro.php?id=$1 [L]
+RewriteRule ^order/([A-Za-z0-9-]+) /system/order.php?id=$1 [L]
+RewriteRule ^nhat-ky/order/$ /system/nhat-ky-order.php [L]
+RewriteRule ^top-nap/$ /system/top-nap.php [L]
+RewriteRule ^doi-mat-khau/$ /system/doi-mat-khau.php [L]
+RewriteRule ^reset-password/([A-Za-z0-9-]+) /rspass.php?id=$1 [L]
